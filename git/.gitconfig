@@ -1,5 +1,5 @@
 [user]
-
+    name = Paul Ellis
 [core]
 	excludesfile = /Users/paule/.gitignore_global
 [alias]
