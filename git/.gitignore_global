@@ -1,0 +1,20 @@
+# Scala - IntelliJ #
+####################
+*.iml
+.idea
+.sbtopts
+
+# Mac #
+#######
+.DS_Store
+
+# pipenv #
+##########
+.env
+
+# credentials #
+###############
+credentials.yml
+credentials.yaml
+secrets.yml
+secrets.yamlw

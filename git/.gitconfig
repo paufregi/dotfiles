@@ -1,0 +1,16 @@
+[user]
+
+[core]
+	excludesfile = /Users/paule/.gitignore_global
+[alias]
+	graph = log --all --decorate --oneline --graph
+    pull-all = pull --all -p
+	soft-reset = reset --soft
+	hard-reset = reset --hard
+	master = checkout master
+	develop = checkout develop
+	dev = checkout develop
+	statys = status
+
+	st = status
+	ch = checkout
