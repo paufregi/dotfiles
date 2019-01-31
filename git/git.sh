@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 REPO="git"
 GIT_CONFIG=".gitconfig"
