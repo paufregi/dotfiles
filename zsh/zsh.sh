@@ -22,10 +22,10 @@ function init() {
     mkdir "$ZSH_HOME"
 
     # Install plugins
-    install_plugin "zsh-autosuggestions" "git@github.com:zsh-users/zsh-autosuggestions.git"
-    install_plugin "zsh-completions" "git@github.com:zsh-users/zsh-completions.git"
-    install_plugin "zsh-history-substring-search" "git@github.com:zsh-users/zsh-history-substring-search.git"
-    install_plugin "zsh-syntax-highlighting" "git@github.com:zsh-users/zsh-syntax-highlighting.git"
+    install_plugin "zsh-autosuggestions" "https://github.com/zsh-users/zsh-autosuggestions.git"
+    install_plugin "zsh-completions" "https://github.com/zsh-users/zsh-completions.git"
+    install_plugin "zsh-history-substring-search" "https://github.com/zsh-users/zsh-history-substring-search.git"
+    install_plugin "zsh-syntax-highlighting" "https://github.com/zsh-users/zsh-syntax-highlighting.git"
 
     # Backup .zshrc
     backup "$HOME/$ZSH_RC"
