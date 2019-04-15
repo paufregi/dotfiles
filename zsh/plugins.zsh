@@ -29,7 +29,7 @@ zstyle ':completion:*:descriptions' format '%F{yellow}%B-- %d%b%f'
 zstyle ':completion:*:messages' format '%d'
 zstyle ':completion:*' group-name ''
 
-fpath=(~/.zsh/completions ~/.zsh/zsh-completions/src $fpath)
+fpath=(~/.zsh/completions ~/.zsh/repos/zsh-completions/src /usr/local/share/zsh/site-functions $fpath)
 autoload -U compinit && compinit
 
 # zsh-syntax-highlighting
