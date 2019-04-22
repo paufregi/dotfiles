@@ -14,9 +14,9 @@ source ~/.zsh/repos/zsh-history-substring-search/zsh-history-substring-search.zs
 # zsh-completions
 unsetopt menu_complete   # do not autoselect the first completion entry
 unsetopt flowcontrol
+unsetopt complete_aliases
 setopt auto_menu         # show completion menu on successive tab press
 setopt complete_in_word
-setopt complete_aliases
 setopt always_to_end
 zstyle ':completion:*' menu select
 zstyle ':completion:*' verbose yes
