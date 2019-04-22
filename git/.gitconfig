@@ -1,7 +1,7 @@
 [user]
     name = Paul Ellis
 [core]
-	excludesfile = /Users/paule/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	graph = log --all --decorate --oneline --graph
     pull-all = pull --all -p

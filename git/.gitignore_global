@@ -1,14 +1,15 @@
-# Scala - IntelliJ #
-####################
+# IDE #
+#######
 *.iml
 .idea
+.vscode
 .sbtopts
 
 # Mac #
 #######
 .DS_Store
 
-# pipenv #
+# Python #
 ##########
 .env
 
