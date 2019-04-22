@@ -11,6 +11,7 @@ function trace() {
 REPO="zsh"
 ZSH_RC=".zshrc"
 ZSH_HOME="$HOME/.zsh"
+ZSH_COMPLETIONS="$ZSH_HOME/completions"
 
 function init() {
     # Setup folder
@@ -20,6 +21,7 @@ function init() {
     fi
 
     mkdir "$ZSH_HOME"
+    mkdir "$ZSH_COMPLETIONS"
 
     # Install plugins
     install_plugin "zsh-autosuggestions" "https://github.com/zsh-users/zsh-autosuggestions.git"
