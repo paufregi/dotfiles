@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function usage() {
     echo "Usage: $0 [command]"
@@ -104,13 +104,7 @@ fi
 COMMAND=$1
 
 case "$COMMAND" in
-	init)
-	   init
-	   ;;
-	update)
-	   update
-	   ;;
-	*)
-	   usage
-           ;;
+	(init) init ;;
+	(update) update ;;
+	(*) usage ;;
 esac
